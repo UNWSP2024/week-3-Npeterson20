@@ -9,7 +9,6 @@ def categorize_age(age):
     ageCategory = "TBD"
     ######################
     # WRITE YOUR CODE HERE
-    # Start of the program
 age = int(input("Enter the person's age: "))
 
 if age <= 1:
