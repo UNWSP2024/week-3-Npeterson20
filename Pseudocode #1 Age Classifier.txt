@@ -1,0 +1,12 @@
+1. Start
+2. Prompt the user to enter the person's age
+3. Get the person's age (store in variable `age`)
+4. If age <= 1
+      Display "The person is an infant"
+   Else If age > 1 AND age < 13
+      Display "The person is a child"
+   Else If age >= 13 AND age < 20
+      Display "The person is a teenager"
+   Else
+      Display "The person is an adult"
+5. End

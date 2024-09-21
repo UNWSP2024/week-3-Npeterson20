@@ -1,0 +1,17 @@
+Steps of the flowchart:
+
+1. Start
+2. Display menu for hot dog selection:
+3. Hot Dog ($3.50)
+4. Chili Dog ($4.50)
+5. Input hot dog choice (set variable dog_cost)
+6. Display menu for optional toppings:
+7. Cheese ($0.50)
+8. Peppers ($0.75)
+9. Grilled Onions ($1.00)
+10. Input the chosen toppings and add their prices to the total (set variable topping_cost)
+11. Calculate the subtotal (subtotal = dog_cost + topping_cost)
+12. Calculate tax (7% of the subtotal)
+13. Calculate the total cost (total = subtotal + tax)
+14. Display the hot dog cost, tax, and total cost
+End
