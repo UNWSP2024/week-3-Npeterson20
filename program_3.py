@@ -14,7 +14,22 @@ def weight_conversion(weight):
     shippingCost = 0.0
     ######################
     # WRITE YOUR CODE HERE
-    ######################
+    # Start of the program
+weight = float(input("Enter the package weight in pounds: "))
+
+if weight <= 2:
+    rate = 1.50
+elif 2 < weight <= 6:
+    rate = 3.00
+elif 6 < weight <= 10:
+    rate = 4.00
+else:
+    rate = 4.75
+
+shipping_charge = rate * weight
+print(f"The shipping charge is: ${shipping_charge:.2f}")
+# End of the program
+
     
     return shippingCost
 
